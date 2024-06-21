@@ -23,7 +23,7 @@ public class Demo {
 			sc.nextLine();
 			System.out.println("true");
 		}else {
-			sc.next();
+			sc.next(); //clear the invalid input
 		}
 		System.out.println("Enter the name:");
 		name = sc.nextLine();
