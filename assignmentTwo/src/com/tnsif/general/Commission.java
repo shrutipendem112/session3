@@ -7,13 +7,7 @@ public class Commission {
 	public String name, address;
 	public int phone;
 	public int sales;
-	public Commission() {
-		// TODO Auto-generated constructor stub
-		this.name = name;
-		this.address = address;
-		this.phone = phone;
-		this.sales = sales;
-	}
+	double commission = 0;
 	public void details() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your name:");
@@ -27,13 +21,14 @@ public class Commission {
 	}
 	public void calculate() {
 		if(sales >= 100000) {
-			System.out.println("Commission is 10%");
+			commission = 0.10 * sales;
 		}else if(sales < 100000 && sales >= 50000) {
-			System.out.println("Commission is 5%");
+			commission = 0.05 * sales;
 		}else if(sales < 50000 && sales >= 30000) {
-			System.out.println("Commission is 3%");
+			commission = 0.03 * sales;
 		}else {
-			System.out.println("No Commission");
+			commission = 0;
 		}
+		System.out.println("Commission is " + commission);
 	}
 }
