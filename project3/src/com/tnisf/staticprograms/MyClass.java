@@ -23,11 +23,4 @@ public class MyClass {
 	static void display() {
 		System.out.println("Serial No. is " +MyClass.srNo);
 	}
-	
-	
-//	public static void main(String[] args) {
-//		// TODO Auto-generated method stub
-//
-//	}
-
 }
