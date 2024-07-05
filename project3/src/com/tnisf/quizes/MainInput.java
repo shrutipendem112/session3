@@ -1,4 +1,4 @@
-package com.tnisf.quizone;
+package com.tnisf.quizes;
 
 import java.util.Scanner;
 

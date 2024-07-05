@@ -1,4 +1,4 @@
-package com.tnisf.quizone;
+package com.tnisf.quizes;
 
 public class pattern {
 
